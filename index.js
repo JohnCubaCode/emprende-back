@@ -2,7 +2,8 @@ require('dotenv').config()
 const http = require("http")
 
 function requestController(){
-    console.log("Gracias Totales")
+    document.getElementById("saludo").textContent ="!Ejemplo de conexcion¡"
+    //console.log("Gracias Totales")
 }
 
 //configurar nuestro servidor
