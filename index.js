@@ -2,7 +2,7 @@ require('dotenv').config()
 const http = require("http")
 
 function requestController(){
-    document.getElementById("saludo").textContent ="!Ejemplo de conexcion¡"
+    document.getElementById("saludo").textContent ="!Ejemplo de conexcion¡";
     //console.log("Gracias Totales")
 }
 
